@@ -1,0 +1,43 @@
+[Wed Apr 22 16:48:25.846643 2026] [mpm_prefork:notice] [pid 283] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 16:48:25.849851 2026] [core:notice] [pid 283] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 16:56:52.934004 2026] [mpm_prefork:notice] [pid 282] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 16:56:52.937322 2026] [core:notice] [pid 282] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 16:57:11.360454 2026] [:error] [pid 291] [client 192.168.65.1:39892] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Wed Apr 22 17:01:08.114964 2026] [mpm_prefork:notice] [pid 290] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:01:08.116857 2026] [core:notice] [pid 290] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:01:22.366685 2026] [:error] [pid 297] [client 192.168.65.1:64895] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Wed Apr 22 17:12:25.766287 2026] [mpm_prefork:notice] [pid 293] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:12:25.768286 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:12:45.493193 2026] [:error] [pid 298] [client 192.168.65.1:56216] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Wed Apr 22 17:25:01.001370 2026] [mpm_prefork:notice] [pid 293] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:25:01.003782 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:37:32.551647 2026] [mpm_prefork:notice] [pid 281] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:37:32.554453 2026] [core:notice] [pid 281] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:37:56.361076 2026] [:error] [pid 288] [client 192.168.65.1:53858] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Wed Apr 22 17:45:36.663185 2026] [mpm_prefork:notice] [pid 292] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:45:36.666454 2026] [core:notice] [pid 292] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:45:48.843923 2026] [:error] [pid 297] [client 192.168.65.1:63599] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Wed Apr 22 17:50:56.949954 2026] [mpm_prefork:notice] [pid 283] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 22 17:50:56.953416 2026] [core:notice] [pid 283] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 22 17:51:16.731069 2026] [:error] [pid 292] [client 192.168.65.1:36971] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 09:05:35.412172 2026] [mpm_prefork:notice] [pid 293] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Thu Apr 23 09:05:35.417406 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 23 09:05:47.841074 2026] [:error] [pid 301] [client 192.168.65.1:57427] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 09:12:40.454419 2026] [mpm_prefork:notice] [pid 282] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Thu Apr 23 09:12:40.456024 2026] [core:notice] [pid 282] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 23 09:18:09.911405 2026] [:error] [pid 286] [client 192.168.65.1:55553] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 09:35:40.219931 2026] [mpm_prefork:notice] [pid 290] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Thu Apr 23 09:35:40.223063 2026] [core:notice] [pid 290] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 23 09:35:57.803605 2026] [:error] [pid 300] [client 192.168.65.1:30113] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 14:28:34.009690 2026] [mpm_prefork:notice] [pid 292] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Thu Apr 23 14:28:34.013334 2026] [core:notice] [pid 292] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 23 14:37:21.501266 2026] [:error] [pid 300] [client 192.168.65.1:57744] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 16:39:36.249811 2026] [mpm_prefork:notice] [pid 293] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Thu Apr 23 16:39:36.252492 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 23 16:39:49.002781 2026] [:error] [pid 301] [client 192.168.65.1:44373] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 16:48:42.107142 2026] [:error] [pid 303] [client 192.168.65.1:26543] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Thu Apr 23 16:56:30.694043 2026] [:error] [pid 301] [client 192.168.65.1:49710] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Fri Apr 24 06:54:04.234182 2026] [mpm_prefork:notice] [pid 293] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Fri Apr 24 06:54:04.236770 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Apr 24 06:57:11.693499 2026] [:error] [pid 304] [client 192.168.65.1:17547] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Fri Apr 24 07:44:28.084328 2026] [:error] [pid 302] [client 192.168.65.1:18284] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php

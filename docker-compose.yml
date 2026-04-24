@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+
+  dvwa:
+   image: vulnerables/web-dvwa
+   container_name: dvwa
+   ports:
+     - "8080:80"
+   volumes:
+     - ./logs/dvwa:/var/log/apache2
+   networks:
+     - cyberlab
+
+  juice-shop:
+    image: bkimminich/juice-shop
+    container_name: juice-shop
+    ports:
+      - "3000:3000"
+    networks:
+      - cyberlab
+
+  attacker:
+    image: kalilinux/kali-rolling
+    container_name: attacker
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    networks:
+      - cyberlab
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    networks:
+      - cyberlab
+
+  logstash:
+   image: docker.elastic.co/logstash/logstash:8.12.0
+   container_name: logstash
+   volumes:
+     - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+     - ./logs/dvwa:/var/log/apache2   
+   ports:
+     - "5001:5001"
+   networks:
+     - cyberlab
+   depends_on:
+     - elasticsearch
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.12.0
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    networks:
+      - cyberlab
+    depends_on:
+      - elasticsearch
+
+  response-engine:
+    build: ./response-engine
+    container_name: response-engine
+    ports:
+      - "5000:5000"
+    networks:
+      - cyberlab
+    depends_on:
+      - elasticsearch
+
+networks:
+  cyberlab:
