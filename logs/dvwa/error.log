@@ -41,3 +41,4 @@
 [Fri Apr 24 06:54:04.236770 2026] [core:notice] [pid 293] AH00094: Command line: '/usr/sbin/apache2'
 [Fri Apr 24 06:57:11.693499 2026] [:error] [pid 304] [client 192.168.65.1:17547] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
 [Fri Apr 24 07:44:28.084328 2026] [:error] [pid 302] [client 192.168.65.1:18284] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
+[Fri Apr 24 08:16:56.023382 2026] [:error] [pid 302] [client 192.168.65.1:27497] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://localhost:8080/setup.php
