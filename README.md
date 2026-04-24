@@ -1,3 +1,18 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![Security](https://img.shields.io/badge/Domain-Cybersecurity-black)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+<h1 align="center">🛡️ SOCSight</h1>
+<p align="center">
+Real-Time Threat Detection & SOC Simulation Platform
+</p>
+
+<p align="center">
+Detect • Analyze • Respond • Visualize
+</p>
+
 # 🔐 SOCSight Threat Detection System
 
 🚀 A real-time **SOC (Security Operations Center) simulation platform** that detects, analyzes, and responds to cyber attacks using SIEM + SOAR concepts.
@@ -68,12 +83,10 @@ SOCSight is designed to replicate how a real SOC team works:
   * Severity
   * Action taken
 
-### 📄 Incident Report Export
+## 🏗️ Architecture
 
-* Generate CSV reports
-* Useful for forensic analysis
+![Architecture](screenshots/architecture.png)
 
----
 
 ## 🏗️ Architecture
 
@@ -119,6 +132,25 @@ streamlit run app.py
 ```
 
 ---
+## ⚙️ How It Works
+
+1. Logs are collected from DVWA (Apache)
+2. Detection engine parses logs in real-time
+3. Attack patterns are identified using regex + decoding
+4. Events are mapped to MITRE ATT&CK techniques
+5. Risk and threat scores are calculated
+6. Alerts are triggered via Telegram
+7. Dashboard visualizes all activity
+
+## 💼 Skills Demonstrated
+
+- Security Monitoring (SOC)
+- Threat Detection Engineering
+- SIEM & Log Analysis
+- MITRE ATT&CK Mapping
+- Incident Response (SOAR concepts)
+- Python Development
+- Data Visualization
 
 ## 🎯 Use Case
 
